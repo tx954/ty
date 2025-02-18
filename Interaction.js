@@ -18,7 +18,7 @@ let clickCount = 0; // 记录点击 No 的次数
 
 function changeText() {
   if (clickCount >= noTexts.length) {
-    return "呜呜~ 我才不要，我只要你，不管不管!!!!";
+    return "呜呜~ 我才不要呢，我只要你，不管不管!!!!";
   }
   return noTexts[clickCount - 1];
 }
@@ -28,7 +28,7 @@ const noTexts = [
   "？你认真的吗…",
   "要不再想想？",
   "不许选这个！ ",
-  "我会很伤心…",
+  "不行，我喜欢你!!!!!!!!",
   "不行，我喜欢你!!!!!!!!",
 ];
 
