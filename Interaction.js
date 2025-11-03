@@ -18,18 +18,18 @@ let clickCount = 0; // 记录点击 No 的次数
 
 function changeText() {
   if (clickCount >= noTexts.length) {
-    return "呜呜~ 我才不要呢，我只要你，不管不管!!!!";
+    return "呜呜~ 我才不要呢，我只要洋洋，不管不管!!!!";
   }
   return noTexts[clickCount - 1];
 }
 
 // No 按钮的文字变化
 const noTexts = [
-  "？你认真的吗…",
-  "要不再想想？",
-  "不许选这个！ ",
-  "不行，我喜欢你!!!!!!!!",
-  "不行，我喜欢你!!!!!!!!",
+  "？洋洋你认真的吗…",
+  "洋洋要不再想想？",
+  "洋洋我不许你选这个！ ",
+  "不行，我喜欢你洋洋!!!!!!!!",
+  "不行，我就要你洋洋!!!!!!!!",
 ];
 
 // No 按钮点击事件
@@ -87,3 +87,4 @@ yesButton.addEventListener("click", function () {
 
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
+
