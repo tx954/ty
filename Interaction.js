@@ -18,7 +18,7 @@ let clickCount = 0; // 记录点击 No 的次数
 
 function changeText() {
   if (clickCount >= noTexts.length) {
-    return "呜呜~ 我才不要呢，我只要洋洋，不管不管!!!!";
+    return "呜呜~ 我才不要呢，我要娶洋洋，不管不管!!!!";
   }
   return noTexts[clickCount - 1];
 }
@@ -87,4 +87,5 @@ yesButton.addEventListener("click", function () {
 
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
+
 
